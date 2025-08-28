@@ -1,6 +1,6 @@
 /* Hero.css */
 .hero-section {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   padding: 100px 0 50px;
@@ -256,3 +256,4 @@
   50% { border-color: #fbbf24 }
 
 }
+
