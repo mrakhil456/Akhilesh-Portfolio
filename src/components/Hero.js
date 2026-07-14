@@ -15,7 +15,7 @@ const Hero = () => {
           >
             <h1>Hi, I'm Akhilesh Kumar Sahu</h1>
             <p>
-              Ambitious and adaptable pursuing a Bachelor's degree in Computer Science. Possessing strong interpersonal skills and a passion for Full Stack Development. With a keen eye for detail and a commitment to excellence, I thrive in collaborative environments and am always eager to learn and grow.
+              Ambitious and adaptable completed a Bachelor's degree in Computer Science and Engineering. Possessing strong interpersonal skills and a passion for Frontend and Full Stack Development. With a keen eye for detail and a commitment to excellence, I thrive in collaborative environments and am always eager to learn and grow.
 
             </p>
             <div className="btn-container">
