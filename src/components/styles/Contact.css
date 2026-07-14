@@ -1,4 +1,4 @@
-  /* Contact.css */
+   /* Contact.css */
 .contact-section {
   padding: 120px 0;
   background: linear-gradient(135deg, #0a0a2a 0%, #1a1a3a 100%);
@@ -371,6 +371,32 @@
   border-top: 2px solid #fff;
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+.bttn:disabled {
+  opacity: 0.8;
+  cursor: wait;
+}
+
+.status-message {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.status-message.success {
+  background: rgba(16, 185, 129, 0.15);
+  color: #bbf7d0;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.status-message.error {
+  background: rgba(239, 68, 68, 0.15);
+  color: #fecaca;
+  border: 1px solid rgba(239, 68, 68, 0.25);
 }
 
 @keyframes spin {
