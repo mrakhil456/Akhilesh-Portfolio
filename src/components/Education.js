@@ -13,8 +13,8 @@ export default function Education() {
             <h3>Bachelor of Technology in Computer Science & Engineering</h3>
             <p>BABU BANARASI DAS ENGINEERING COLLEGE LUCKNOW </p>
             <p>2022- 2026</p>    
-            <p>CGPA: 7.62</>
-            <P>PERCENTAGE:77.14</p>
+            <p>CGPA: 7.62</p>
+            <p>PERCENTAGE:77.14</p>
           </div>
           </li>
           <li>
