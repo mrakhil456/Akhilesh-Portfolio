@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaCode, FaNodeJS, FaBootstrap, FaMobileAlt, FaGithub, FaMicrosoft} from 'react-icons/fa';
-import { SiMongodb, SiVercel } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaCode, FaBootstrap, FaMobileAlt, FaGithub, FaMicrosoft} from 'react-icons/fa';
+import { SiMongodb, SiVercel, SiNodedotjs } from 'react-icons/si';
 import './styles/Skills.css';
 
 const skills = [
@@ -10,7 +10,7 @@ const skills = [
   { icon: <FaMobileAlt />, title: 'Responsive Web Design', description: 'Flexbox, Grid, Media Queries, Mobile-first Design' },
   { icon: <FaJs />, title: 'JavaScript', description: 'ES6+, DOM manipulation, async programming' },
   { icon: <FaReact />, title: 'React.js', description: 'Hooks, Context API, Redux, React Router' },
-  { icon: <FaNodeJS />, title: 'Node.js ', description: 'REST APIs, Authentication, Server-side Development' },
+  { icon: <SiNodedotjs />, title: 'Node.js ', description: 'REST APIs, Authentication, Server-side Development' },
   { icon: <SiMongodb />, title: 'MongoDB ', description: 'NoSQL Database, CRUD Operations, Queries, Data Modeling' },
   { icon: <FaCode />, title: 'C ', description: 'Programming fundamentals, pointers, arrays, functions' },
   { icon: <FaCode />, title: 'C++', description: 'OOPs, Functions, Basic Memory Management' },
