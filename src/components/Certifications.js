@@ -96,6 +96,19 @@ const Certifications = () => {
             </div>
             </div>
           </li>
+          <li>
+              <div className="certifications-cards">
+            <div className="certifications-card">
+              
+                <h3>TCS iON NQT-Cognitive </h3>
+                <p>TCS </p>
+                <p>Issued September 15, 2025</p>
+            </div>
+            <div className="button">
+            <a href="/Certificate8.pdf" className="btn " id='btn-c'>View Certificate</a>
+            </div>
+            </div>
+          </li>
         </ul>
         </div>  
         </div>
