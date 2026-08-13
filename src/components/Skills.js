@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaCode, FaNodeJS, FaBootstrap, FaMobileAlt, FaGithub, FaMicrosoft} from 'react-icons/fa';
-import { SiMongodb, SiVercel } from 'react-icons/si;
+import { SiMongodb, SiVercel } from "react-icons/si";
 import './styles/Skills.css';
 
 const skills = [
