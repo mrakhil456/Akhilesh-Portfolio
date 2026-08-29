@@ -37,6 +37,13 @@ const projects = [
     image: project4,
     github: 'https://github.com/mrakhil456/E-Commerce-Website',
     demo: 'https://shoptyc.vercel.app/'
+  },
+  {
+    id: 4,
+    title: 'RoomDekho - Room Rental Platform',
+    description: 'Developed a full-stack room rental platform using the MERN stack. Built a responsive React frontend, developed RESTful APIs with Node.js and Express.js, integrated MongoDB using Mongoose, and implemented JWT-based authentication. Worked on room listings, search and filtering, user functionality, frontend-backend integration, and application debugging.',
+    image: project5,
+    github: 'https://github.com/mrakhil456/Room-Dekho',
   }
 ];
 
