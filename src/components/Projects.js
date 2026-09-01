@@ -3,6 +3,7 @@ import project1 from '../assets/images/Project1.png';
 import project2 from '../assets/images/Project2.png';
 import project3 from '../assets/images/Project3.png';
 import project4 from '../assets/images/Project4.png';
+import project5 from '../assets/images/Project5.png';
 import './styles/Projects.css';
 
 const projects = [
@@ -39,7 +40,7 @@ const projects = [
     demo: 'https://shoptyc.vercel.app/'
   },
   {
-    id: 4,
+    id: 5,
     title: 'RoomDekho - Room Rental Platform',
     description: 'Developed a full-stack room rental platform using the MERN stack. Built a responsive React frontend, developed RESTful APIs with Node.js and Express.js, integrated MongoDB using Mongoose, and implemented JWT-based authentication. Worked on room listings, search and filtering, user functionality, frontend-backend integration, and application debugging.',
     image: project5,
