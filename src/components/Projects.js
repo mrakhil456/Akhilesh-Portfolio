@@ -15,22 +15,22 @@ const projects = [
     github: ' https://github.com/mrakhil456/Textutil',
     demo: ' https://textutil-blond.vercel.app/'
   },
-  {
+    {
     id: 2,
+    title: 'RoomDekho - Room Rental Platform',
+    description: 'Developed a full-stack room rental platform using the MERN stack. Built a responsive React frontend, developed RESTful APIs with Node.js and Express.js, integrated MongoDB using Mongoose, and implemented JWT-based authentication. Worked on room listings, search and filtering, user functionality, frontend-backend integration, and application debugging.',
+    image: project5,
+    github: 'https://github.com/mrakhil456/Room-Dekho',
+  },
+  {
+    id: 3,
     title: 'NGO Website',
     description: ' A website for a non-profit organization that provides information about their mission, projects, and how to get involved.',
     image: project2,
     github: 'https://github.com/mrakhil456/NGO-Website',
     demo: 'https://ngo-home-page-self.vercel.app/'
   },
-  {
-    id: 3,
-    title: 'Basic Calculator',
-    description: 'A simple and interactive calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.',
-    image: project3,
-    github: 'https://github.com/mrakhil456/Basic-Calculator',
-    demo: 'https://basic-calculator-steel-omega.vercel.app/'
-  },
+
   {
     id: 4,
     title: 'E-commerce Website',
@@ -39,13 +39,15 @@ const projects = [
     github: 'https://github.com/mrakhil456/E-Commerce-Website',
     demo: 'https://shoptyc.vercel.app/'
   },
-  {
+
+    {
     id: 5,
-    title: 'RoomDekho - Room Rental Platform',
-    description: 'Developed a full-stack room rental platform using the MERN stack. Built a responsive React frontend, developed RESTful APIs with Node.js and Express.js, integrated MongoDB using Mongoose, and implemented JWT-based authentication. Worked on room listings, search and filtering, user functionality, frontend-backend integration, and application debugging.',
-    image: project5,
-    github: 'https://github.com/mrakhil456/Room-Dekho',
-  }
+    title: 'Basic Calculator',
+    description: 'A simple and interactive calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.',
+    image: project3,
+    github: 'https://github.com/mrakhil456/Basic-Calculator',
+    demo: 'https://basic-calculator-steel-omega.vercel.app/'
+  },
 ];
 
 const Projects = () => {
