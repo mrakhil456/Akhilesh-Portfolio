@@ -70,9 +70,26 @@ const Projects = () => {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className="project-links">
-                  <a href={project.github} className="btn" id='btn-d' target="_blank" rel="noreferrer">GitHub</a>
-                  <a href={project.demo} className="btn btn-outline"id='btn-d' target="_blank" rel="noreferrer">Live Demo</a>
-                </div>
+  <a
+    href={project.github}
+    className="btn"
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitHub
+  </a>
+
+  {project.demo && (
+    <a
+      href={project.demo}
+      className="btn btn-outline"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Live Demo
+    </a>
+  )}
+</div>
               </div>
             </motion.div>
           ))}
