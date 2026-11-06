@@ -32,7 +32,7 @@ const projects = [
     description: 'Developed a responsive and user-friendly Invoice Generator web application that allows users to create, customize, and generate professional invoices. The platform simplifies the billing process by providing an easy-to-use interface for entering customer details, adding products or services, managing quantities and prices, and calculating invoice totals. Designed with a focus on usability, clean UI, and efficient invoice management, making it suitable for freelancers, small businesses, and individuals.',
     image: project3,
     github: 'https://github.com/mrakhil456/Invoice-Generator',
-    demo: 'https://invoice-generator-eight-blue.vercel.app/'
+    demo: 'https://invoicegeneration123.netlify.app/'
   },
   {
     id: 4,
