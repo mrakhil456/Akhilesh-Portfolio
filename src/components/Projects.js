@@ -1,0 +1,109 @@
+import { motion } from 'framer-motion';
+import project1 from '../assets/images/Project1.png';
+import project2 from '../assets/images/Project2.png';
+import project3 from '../assets/images/Project3.png';
+import project4 from '../assets/images/Project4.png';
+import project5 from '../assets/images/Project5.png';
+import project6 from '../assets/images/Project6.png';
+import project7 from '../assets/images/Project7.png';
+import './styles/Projects.css';
+
+const projects = [
+  
+  {
+    id: 1,
+    title: 'RoomDekho - Room Rental Platform',
+    description: 'Developed a full-stack room rental platform using the MERN stack. Built a responsive React frontend, developed RESTful APIs with Node.js and Express.js, integrated MongoDB using Mongoose, and implemented JWT-based authentication. Worked on room listings, search and filtering, user functionality, frontend-backend integration, and application debugging.',
+    image: project1,
+    github: 'https://github.com/mrakhil456/Room-Dekho',
+    demo: 'https://frontend-six-sand-92.vercel.app/'
+  },
+  {
+    id: 2,
+    title: 'Textutil Website',
+    description: ' Textutils built with React primarily to do various operations on regular typed text. It is a utility that allows you to manipulate your text in various ways.',
+    image: project2,
+    github: ' https://github.com/mrakhil456/Textutil',
+    demo: ' https://textutil-blond.vercel.app/'
+  },
+  {
+    id: 3,
+    title: 'Invoice-Generator',
+    description: 'Developed a responsive and user-friendly Invoice Generator web application that allows users to create, customize, and generate professional invoices. The platform simplifies the billing process by providing an easy-to-use interface for entering customer details, adding products or services, managing quantities and prices, and calculating invoice totals. Designed with a focus on usability, clean UI, and efficient invoice management, making it suitable for freelancers, small businesses, and individuals.',
+    image: project3,
+    github: 'https://github.com/mrakhil456/Invoice-Generator',
+    demo: 'https://invoice-generator-eight-blue.vercel.app/'
+  },
+  {
+    id: 4,
+    title: 'CodeReview-AI',
+    description: ' Developed a full-stack code analysis tool using Python, FastAPI, React, and Python AST that performs static code analysis without executing submitted code. Detects syntax errors, security vulnerabilities, bug risks, and maintainability issues, while providing complexity metrics, quality scoring, review history, and optional AI-powered explanations.',
+    image: project4,
+    github: 'https://github.com/mrakhil456/CodeReview-AI',
+   
+  },
+
+  {
+    id: 5,
+    title: 'NGO Website',
+    description: ' A website for a non-profit organization that provides information about their mission, projects, and how to get involved.',
+    image: project5,
+    github: 'https://github.com/mrakhil456/NGO-Website',
+    demo: 'https://ngo-home-page-self.vercel.app/'
+  },
+  {
+    id: 6,
+    title: 'E-commerce Website',
+    description: 'This is a fully responsive and interactive e-commerce website designed and developed using HTML, CSS, and JavaScript. It features a user-friendly interface, product listings, and a shopping cart functionality.',
+    image: project6,
+    github: 'https://github.com/mrakhil456/E-Commerce-Website',
+    demo: 'https://shoptyc.vercel.app/'
+  },
+  {
+    id: 7,
+    title: 'Basic Calculator',
+    description: 'A simple and interactive calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.',
+    image: project7,
+    github: 'https://github.com/mrakhil456/Basic-Calculator',
+    demo: 'https://basic-calculator-steel-omega.vercel.app/'
+  },
+  
+];
+
+const Projects = () => {
+  return (
+    <section id="projects" className="projects-section">
+      <div className="container">
+        <h2>My Projects</h2>
+        <div className="projects-container">
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.id}
+              className="project-card"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              viewport={{ once: true }}
+            >
+              <div className="project-image">
+                <img src={project.image} alt={project.title} />
+              </div>
+              <div className="project-info">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <div className="project-links">
+                <a href={project.github} className="btn"target="_blank" rel="noreferrer"> GitHub </a>
+               {project.demo && (
+               <a href={project.demo} className="btn btn-outline" target="_blank" rel="noreferrer" >  Live Demo</a>
+             )}
+              </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

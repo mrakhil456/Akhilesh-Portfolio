@@ -1,10 +1,36 @@
-.App {
-  text-align: center;
+
+/* Default styles for larger screens */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,12 +53,17 @@
 .App-link {
   color: #61dafb;
 }
+ 
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+  --accent-color: #e74c3c;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
