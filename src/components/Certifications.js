@@ -100,8 +100,8 @@ const Certifications = () => {
               <div className="certifications-cards">
             <div className="certifications-card">
               
-                <h3>TCS ion NQT-Cognitive</h3>
-                <p>TC</p>
+                <h3>TCS iON NQT-Cognitive</h3>
+                <p>TCS </p>
                 <p>Issued September 15, 2025</p>
             </div>
             <div className="button">
